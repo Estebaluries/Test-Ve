@@ -1,0 +1,17 @@
+{
+  "name": "test-ve",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "live-server --port=3000 --open=./index.html",
+    "lint": "eslint --ext .js .",
+    "format": "prettier --write \"**/*.{js,css,html}\""
+  },
+  "devDependencies": {
+    "eslint": "^9.36.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "live-server": "^1.2.2",
+    "prettier": "^3.6.2"
+  }
+}

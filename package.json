@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "start": "live-server --port=3000 --open=./index.html",
+    "dev": "live-server --port=3000 --open=./src/index.html",
     "lint": "eslint --ext .js .",
     "format": "prettier --write \"**/*.{js,css,html}\""
   },
